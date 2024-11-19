@@ -5,6 +5,6 @@ This project demonstrates a reinforcement learning (RL) approach for autonomous 
 ## Features
 - **Goal-Reaching Task**: The agent is trained to navigate towards a goal, with the goal position refreshing after every episode.
 - **Goal and State Input**: The model uses both the current position (state) and the goal position as inputs to the PPO model.
-- **Simulated Environment**: The simulation uses the [TurtleBot3 Gazebo](https://github.com/ROBOTIS-GIT/turtlebot3_gazebo) environment with ROS Noetic.
+- **Simulated Environment**: The simulation uses the [TurtleBot3 Gazebo]((https://github.com/ROBOTIS-GIT/turtlebot3)) environment with ROS Noetic.
 - **Reward Shaping**: Refined reward shaping to handle noisy data for stable training.
 - **Training**: The agent is trained over approximately 5500 episodes.
