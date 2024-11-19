@@ -8,3 +8,13 @@ This project demonstrates a reinforcement learning (RL) approach for autonomous 
 - **Simulated Environment**: The simulation uses the [TurtleBot3 Gazebo](https://github.com/ROBOTIS-GIT/turtlebot3) environment with ROS Noetic.
 - **Reward Shaping**: Refined reward shaping to handle noisy data for stable training.
 - **Training**: The agent is trained over approximately 5500 episodes.
+
+## Getting Started
+
+### Prerequisites
+Make sure you have the following installed:
+- ROS Noetic
+- TurtleBot3
+- Gym
+- Stable-Baselines3
+- PyTorch
