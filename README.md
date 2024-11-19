@@ -3,6 +3,9 @@
 
 This project demonstrates a reinforcement learning (RL) approach for autonomous navigation of TurtleBot3 in a simulated environment using the Proximal Policy Optimization (PPO) algorithm. The goal of the agent is to reach a specific target while navigating through the environment. The state and goal positions are fed as inputs to the PPO agent, enabling precise navigation.
 
+### Demo
+![Demo GIF](assets/rl_turtlebot.gif)
+
 ## Features
 - **Goal-Reaching Task**: The agent is trained to navigate towards a goal, with the goal position refreshing after every episode.
 - **Goal and State Input**: The model uses both the current position (state) and the goal position as inputs to the PPO agent.
@@ -58,8 +61,7 @@ checkpoint_path='./checkpoints/PPO_continuous_turtlebot_5300.pth'
 ```
 This script will load the model checkpoint and evaluate the agent's performance on the goal-reaching task.
 
-### Demo
-![Demo GIF](assets/rl_turtlebot.gif)
+
 
 
 
